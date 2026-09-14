@@ -1,0 +1,52 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+    border-bottom: 3px solid black;
+    position: sticky;
+    top: 0;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.connect {
+    cursor: pointer;
+    width: 200px;
+}
+
+/*Main*/
+.hero {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hero p {
+    width: 400px;
+    margin: 20px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-top: 3px solid black;
+}
